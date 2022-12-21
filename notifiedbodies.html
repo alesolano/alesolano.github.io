@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" href="/assets/favicon/32.png" sizes="32x32">
+        <link rel="icon" href="/assets/favicon/192.png" sizes="192x192">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Begin Jekyll SEO tag v2.7.1 -->
+        <title>Ale Solano | Thoughts on Digital Health</title>
+        <meta name="generator" content="Jekyll v3.9.0" />
+
+        <!-- I don't know what this is -->
+        <link rel="canonical" href="https://alesolano.xyz/" />
+
+        <meta name="description" content="Thoughts on Digital Health" />
+
+        <!-- Facebook card, in case the website is linked in Facebook, WhatsApp, or whatever -->
+        <!-- See https://ogp.me/ -->
+        <meta property="og:title" content="Ale Solano" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:description" content="Thoughts on Digital Health" />
+        <meta property="og:url" content="https://alesolano.xyz/" />
+        <meta property="og:site_name" content="Ale Solano" />
+
+        <!-- Twitter card, in case the website is linked in Twitter -->
+        <!-- See https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary -->
+        <meta name="twitter:card" content="summary" />
+        <!-- meta property="twitter:title" content="Ale Solano" /-->
+        <meta name="twitter:title" content="Ale Solano" />
+        <meta name="twitter:description" content="A description" />
+        <meta name="twitter:image" content="An image" />
+        <!-- script type="application/ld+json">
+                 {"url":"https://dcgross.com/","@type":"WebSite","description":"I work on Pioneer. Previously I was a Partner at Y-Combinator and started its AI program. I’m an investor in companies like GitHub, Figma, Gusto, Notion, Opendoor, Cruise Automation, Coinbase, and others.","headline":"Daniel Gross","name":"Daniel Gross","@context":"https://schema.org"}
+            </script-->
+        <meta name="twitter:card" content="summary_large_image">
+
+        <!-- End Jekyll SEO tag -->
+
+        <link rel="stylesheet" href="/assets/core.css">
+
+    </head>
+</head>
+
+<body>
+    <div class="header">
+        <section></section>
+    </div>
+    <div id="content">
+        <div class="code" style="max-width:600px;">
+                        <h2>Notified Bodies: friends or enemies? [draft]</h2>
+            <p>December 2022</p>
+            <p>            
+                <font color="#777777">
+                <i>
+                    Hi, my name is Ale and I'm on a personal mission to help accelerate innovation in healthcare.
+                    I dream of a world where shipping health products is as seamless as shipping software, while always maintaining safety and effectiveness.
+                    This post is an attempt to understand better the current obstacles to innovation and what we can do about it.
+                    <br>Today: compliance.</br>
+                </i>
+                </font>
+            </p>
+            <p>
+                If you are building a medical device and you want to operate in the European market, hold on tight because you need a <b>CE mark</b>.
+                This CE mark is a certificate that guarantees that your medical device has been assessed and found to meet the requirements set out in the <b>EU 2017/745 law</b>, aka the Medical Devices Regulation, aka <b>MDR</b>.
+            </p>
+            <p>
+                This is great for everybody!
+                We all deserve a guarantee that products intended to increase our health are indeed safe and effective.
+                <font color="#777777">[<a href="#f1n"><font color="#777777">1</font></a>]</font>
+            </p>
+            <p>
+                The bad news is that, well, it can take <b>18 months</b> to get that CE mark.
+                This kills projects and therefore kills innovation.
+            </p>
+            <!--p>
+                Because let's say that again: 18 months.
+                18 months from the day you first apply to get the certification to the moment it gets approved.
+                18 months of only expenses and zero revenue.
+                And also 18 months without real users and feedback from the market.
+                A market that may be completely different the day the product sees the light.
+            </p-->
+            <p>
+                When it takes a product 18 months to make its first euro of revenue, that product becomes a <b>capital intensive product</b>.
+                Just visualize 18 months of only expenses and zero revenue.
+                Even if your product is a <b>software</b> medical device developed by a tiny team, that lengthy time-to-market makes it capital intensive.
+            </p>
+            <p>
+                This is backwards.
+                The real revolution of software is that everybody can cheaply create value.
+                Anybody can spot a problem, build a solution in a matter of days——or even hours!——and check whether their proposal makes sense or not.
+                Can you imagine this speed in healthcare?
+                Software medical devices allow any research group to cheaply turn a paper into a product;
+                a therapy into a DiGA.
+                Every scientist, every doctor or every patient could cheaply contribute.
+                This is the world I dream of.
+                </p>
+                <p>
+                Sadly, today only people with access to capital will be able to participate.
+                Not because of technology.
+                The real obstacle is compliance.
+                <font color="#777777">[<a href="#f2n"><font color="#777777">2</font></a>]</font>
+            </p>
+
+            <p>
+                But why does it take so long?
+                Is there something we can do about it?
+                And most importantly: if a solution arrives, will the world embrace it or oppose it?
+                Is the incentive system built to encourage speed of approval, or are some stakeholders making more money because of this 18 month delay?
+            </p>
+            <p>
+                To answer these questions, let's meet the rulers of the MDR land: <b>notified bodies</b>.
+            </p>
+            <h3>Notified Bodies</h3>
+            <p>
+                Notified bodies are the only entities that can issue CE marks.
+                They are 35 organizations spread throughout Europe with the power of evaluating medical devices and sealing them with the coveted CE mark.
+                They are in charge of reviewing your documentation and auditing your company, thus deciding if your medical device is safe enough to be used by Europeans.
+            </p>
+            <p>
+                They are also the main bottleneck in compliance.
+                <a href="https://openregulatory.com/notified-bodies/">Here</a> you can see that it takes long months for notified bodies to review documentation and auditing companies.
+                Also, you can see how lots of them are not even accepting new customers!
+                They are collapsed by the high demand of CE marks and their inability to keep up with it.
+            </p>
+
+			<p>
+                This collapse is being called the <b>MDR fiasco</b>.
+                After the approval of the MDR in 2017, all devices previously certified under the previous regulation, MDD, need to reapply for the CE mark.
+                So there you have a big wave of work for notified bodies.
+                Additionally, lots of previously class I devices——which did not require a review of technical documentation——, now correspond to class IIa devices——which do require the review.
+                The big wave became a tsunami.
+                </p>
+                <p>
+                And while the demand for a CE mark is very high, the supply of notified bodies is still small.
+            </p>
+            
+            <p>
+            	The MDR fiasco is not notified bodies' fault.
+                But that does not mean that the process is full of inefficiencies.
+                Solving these inefficiencies can allow notified bodies to handle more applications.
+            </p>
+
+            <h3>The CE process</h3>
+
+			<p>
+            </p>
+
+            <p>
+                The work that notified bodies do can be divided into two main tasks: (1) review your technical documentation and (2) audit your quality management system.
+            </p>
+            
+            <p>
+            	Step (1) is the longest step of the process.
+                And the most uncertain.
+                According to <a href="https://www.berlincert.de/en/certification-body/mdr-certification">BerlinCert</a>, reviewing the clinical and technical documentation can last from <b>3 to 12 months</b>, depending on the quality and quantity of the documents.
+            </p>
+            
+            <p>
+            	Step (2) does not fall short either.
+                It takes notified bodies <b>5 months</b> to audit your quality management system.
+            </p>
+            
+            <p>
+                And I just skipped a tiny detail: there's a step (0). It's called "accept your application" and it consists of two actions:
+                <ol type="I">
+                    <li>
+                        Read your email. This can take <b>months or never happen</b>.
+                    </li>
+                    <li>
+                        Check if they are authorized to assess your medical device.
+                        Not all notified bodies can review, let's say, a medical device completely built with software.
+                        Notified bodies offer a "short questionnaire" to determine if they can do the job.
+                        It can take them between <b>1 and 2 months</b> to read the questionnaire.
+                    </li>
+                </ol>
+            </p>
+			<p>
+            	Yep, the whole process looks extremely inefficient.
+                Though the collapse is understandable because of the MDR fiasco, it's unacceptable that it takes 2 months to read a questionnaire or 5 months to do a QMS audit.
+                And I'm also sure that the techdoc review, though seemingly more complex, can be highly optimized.
+            </p>
+
+            <p>
+            	Overall, there's room for a lot of improvement here.
+            	I'm sure that technology can help a lot here and maybe reduce these times to a matter of weeks.
+                The question now is if notified bodies would adopt these techonologies—maybe even invest in them—or they would oppose them.
+                Let's look at their incentives.
+            </p>
+
+			<h3>Incentives</h3>
+            <p>
+              Let's make that extremely clear: first and foremost, their incentives should be aligned with the safety of patients above anything else.
+              Notified bodies should be incentivized to only approving those medical devices that rightfully comply with the MDR law.
+              That's their purpose and their biggest source of value.
+              Safety first.
+            </p>
+            <p>
+                But again, safety should work harmoniously with speed of innovation.
+                So to boost innovation in healthcare, notified bodies should also be incentivized by speed of approval. Is this the case?
+            </p>
+
+            <p>
+                Notified bodies are——mostly——<b>private organizations</b>.
+                This implies that they seek to maximize profits.
+                Given two options they will be inclined to choose the one that gets them more money.
+             </p>
+             <p>
+                Now, do they get more revenue when the job is done quick or when it is delayed months and months?
+                Are their incentives aligned with speed of approval?
+            </p>
+            
+            <p>
+                Here's <a href="https://www.berlincert.de/files/content/downloads/veroeffentlichungen/MU_004m%20Preisliste%20Zertifizierung.pdf">BerlinCert's pricing list</a>:
+            </p>
+            
+            <p>
+                <ol>
+                    <li>
+                        <b>TechDoc</b>: they charge by the hour.
+                        They charge 300€/hour to review your documentation.
+                        They are dangerously incentivized to delay this review for months and months.
+                        To better align incentives, <u>they should charge a fixed price for the complete review</u>.
+                    </li>
+                    <li>
+                        <b>Audit</b>: again, they charge by the day.
+                        Precisely, 2000€/day for auditing your QMS. If it takes them more days, they charge you more, soooo they are incentivized again to delay the process.
+                        To better align incentives, they should charge a fixed price for the complete audit.
+                    </li>
+                </ol>
+            </p>
+
+			<p>
+            	Other notified bodies, like Kiwa Cermet Italy, have similar <a href="https://www.kiwa.com/en/service2/certification/marking-ce-mdr-medical-devices/">pricing lists</a>. Charging by the hour or by the day.
+            </p>
+            
+            <p>
+            	Not looking good, but not everything is lost.
+                There's hope that, at some point, a notified body wants to compete offering a different pricing system.
+                A notified body that has speed as their value proposition.
+            </p>
+
+			<h3>Competition</h3>
+            
+            <p>
+            	The idea behind notified bodies is that <b>evaluation is decentralized</b>. 
+                In contrast with medicines, where evaluation can only be done by a single and governmental entity——the EMA——, here we have 35 organizations with the same authority to grant CE marks.
+                And more notified bodies can appear in the future, sparking further competition.
+            </p>
+            <p>
+            	This is interesting.
+                And not because the potential emergence of more notified bodies can reduce the collapse——that's a very slow solution and would only solve step (0).
+                But because maybe one of the 35 current notified bodies decides to compete with the rest in terms of efficiency.
+            </p>
+
+            <p>
+				We just need one notified body to unlock this.
+                One whose incentives are aligned with speed of approval.
+                Once this first mover starts embracing technology to speed up the process, all manufacturers may ignore the rest of notified bodies and stick with the efficient one.
+            </p>
+
+
+            <h3>Ideas</h3>
+            <h4>Automatic tests</h4>
+            <p>
+            	Let's agree on a series of automatic tests that the technical documentation should pass in order to comply with MDR.
+            </p>
+            <p>
+                Imagine uploading your technical documentation to a notified body and instantly have feedback about the documents you are missing, sections that have been filled incorrectly or maybe an early indication that the clinical literature is weak.
+                The amount of time that could be saved!
+                Of course, not everything will be able to be automatically tested, but I'm sure there are a lot of simple stuff that manufacturers get wrong over and over.
+            </p>
+            <p>
+                A great example is what Vanta has built for security compliance.
+                A platform built alongside auditors where companies can run tests on their software, fill documentation and gather all feedback that a particular standard requirement is met.
+                I'm sure that this can also be done for medical devices.
+            </p>
+            
+            <h4>Standard QMS software</h4>
+            <p>
+				Why does every company create their QMS from scratch?
+                Every company is building their QMS on Google Drive in a rather unique way, and notified bodies are forced to spend time auditing every single one to check if they've done it correctly.
+             </p>
+             <p>
+                Time to build one that notified bodies widely accept so they can finish their online audit in a matter of seconds.
+                A QMS software where it's impossible to not comply with ISO 13485.
+            </p>
+            <p>
+            	<a href="https://openregulatory.com/formwork/">Formwork</a> is getting close to this, but QMS audits still take months to complete.
+            </p>
+            <h4>An open-source software medical device</h4>
+            <p>
+            	This idea came from <a href="https://www.youtube.com/watch?v=0f6zcMUOwn0">Oliver Eidel</a>.
+            </p>
+            <p>
+                With open-source software medical device that has achieved the CE mark, builders can just fork the code, adapt it for their intended use and apply for the CE mark.
+                Given that most of the product and documentation is exactly the same, notified bodies should have an easier time reviewing everything.
+            </p>
+            <h3>Open call for notified bodies</h3>
+            <p>
+            None of these ideas will thrive without the collaboration of notified bodies.
+            We need them——or at least one of them——to build the best solutions for this collapse and to finally accelerate innovation in healthcare.
+            </p>
+           <p>
+            If you work on a notified body and have some thoughts/feedback or simply want to say hi, please send me an email to <a href="mailto: asolanopf@gmail.com">asolanopf@gmail.com</a> or find me on <a href="https://www.linkedin.com/in/alesolano/">LinkedIn</a>.
+            </p>
+            <p>
+            Let's make compliance easy and effecient.
+            I want to help.
+            </p>
+            <br>
+            <br>
+            <br>
+        	<h4>Notes</h4>
+            <p>
+            	[<a name="f1n">1</a>]
+                It's also great for companies. A.H. Robins Company, founded in 1866 declared bankruptcy in 1985
+                after its intrauterine device Dalkon Shield killed more than 20 women and severely damaged 90,000.
+                This disaster accelerated the enactment of the Medical Device Regulation Act in the U.S.
+                <br>
+                Interestingly, A.H. Robins did not develop the device: they acquired the rights from a smaller, younger company.
+                119 years of legacy destroyed by an extremely unsafe product, that they didn't even created.
+            </p>
+            <p>
+            	[<a name="f2n">2</a>]
+                Yes, you can raise capital from a VC fund, but that means you are forced to create a high growth company.
+                What if you just want to create a sustainable business?
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
